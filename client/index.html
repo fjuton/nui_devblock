@@ -28,7 +28,7 @@
         console.log(element);
         if (devtoolsOpen || element.__defineGetter__ == "() => {}")
         {
-            console.log("detekted tyk urwo jebana")
+
             $.post('http://nui_blocker/callback');
         }
     }, 3000);
